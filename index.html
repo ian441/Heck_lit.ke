@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kairo Voss is a multidisciplinary artist, painter, and rapper blending visual storytelling, hip-hop culture, and raw expression into a unified creative vision."
+    />
+    <title>Kairo Voss | Painter • Rapper • Creative Artist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwUEQp1OfQ7pmc+u0hWwLx+gM0XHo93l+0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="paint-splash splash-1"></div>
+      <div class="paint-splash splash-2"></div>
+      <div class="paint-splash splash-3"></div>
+
+      <header class="site-header">
+        <nav class="nav container">
+          <a href="#home" class="brand" aria-label="Kairo Voss home">
+            <span class="brand-mark">KV</span>
+            <span class="brand-text">Kairo Voss</span>
+          </a>
+
+          <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#paintings">Paintings</a>
+            <a href="#music">Music</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#videos">Videos</a>
+            <a href="#events">Events</a>
+            <a href="#contact">Contact</a>
+            <a href="#contact" class="btn btn-primary nav-cta">Work With Me</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section id="home" class="hero section">
+          <div class="container hero-grid">
+            <div class="hero-copy reveal">
+              <p class="eyebrow">Painter • Rapper • Storyteller</p>
+              <h1>ART. MUSIC. EXPRESSION.</h1>
+              <h2>Painter. Rapper. Storyteller. Creative visionary.</h2>
+              <p class="lead">
+                Through every brushstroke and every bar, I turn life into color, rhythm, and meaning — creating art that speaks to memory, pain, ambition, and the raw truth of being human.
+              </p>
+              <div class="hero-actions">
+                <a href="#paintings" class="btn btn-primary">Explore My Art</a>
+                <a href="#music" class="btn btn-secondary">Listen To My Music</a>
+              </div>
+            </div>
+
+            <div class="hero-visual reveal">
+              <div class="portrait-card">
+                <img
+                  src="images/WhatsApp Image 2026-10-25 at 14.24.47.jpeg"
+                  alt="Portrait of artist Kairo Voss"
+                />
+                <div class="floating-tag tag-mic">
+                  <i class="fa-solid fa-microphone-lines"></i>
+                  <span>Studio mode</span>
+                </div>
+                <div class="floating-tag tag-brush">
+                  <i class="fa-solid fa-paintbrush"></i>
+                  <span>Canvas life</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="about section">
+          <div class="container split-layout">
+            <div class="about-visual reveal">
+              <div class="image-frame">
+                <img
+                  src="images/WhatsApp Image 2026-10-25 at 14.25.37.jpeg"
+                  alt="Artist posing in studio"
+                />
+              </div>
+            </div>
+
+            <div class="about-copy reveal">
+              <p class="eyebrow">About the artist</p>
+              <h3>The Artist Behind The Art</h3>
+              <p>
+                Kairo Voss is a multidisciplinary artist whose work flows between the studio and the stage. From vivid paintings that shake the imagination to lyrics that cut through silence, his creative practice is rooted in identity, lived experience, and emotional truth.
+              </p>
+              <p>
+                Painting and hip-hop are not separate lanes for him — they are two expressions of the same soul. One speaks in color, texture, and movement. The other speaks in cadence, voice, and memory. Together, they form a complete picture of who he is.
+              </p>
+              <p>
+                His work is inspired by urban life, raw emotion, resilience, and the tension between chaos and clarity. Every project is a story told through a fearless visual language and an honest lyrical voice.
+              </p>
+
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <strong>50+</strong>
+                  <span>Paintings</span>
+                </div>
+                <div class="stat-item">
+                  <strong>20+</strong>
+                  <span>Songs</span>
+                </div>
+                <div class="stat-item">
+                  <strong>10+</strong>
+                  <span>Exhibitions</span>
+                </div>
+                <div class="stat-item">
+                  <strong>5+</strong>
+                  <span>Years Creating</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="paintings" class="paintings section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Visual art</p>
+              <h3>Paintings & Collection</h3>
+            </div>
+
+            <div class="filter-bar reveal" aria-label="Artwork filters">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="abstract">Abstract</button>
+              <button class="filter-btn" data-filter="portraits">Portraits</button>
+              <button class="filter-btn" data-filter="street">Street Art</button>
+              <button class="filter-btn" data-filter="contemporary">Contemporary</button>
+            </div>
+
+            <div class="art-grid masonry reveal">
+              <article class="art-card" data-category="abstract">
+                <img src="images/WhatsApp Image 2026-10-25 at 14.26.35 (1).jpeg" />
+                <div class="art-overlay">
+                  <div>
+                    <p class="art-tag">Abstract</p>
+                    <h4>Inner Conflict</h4>
+                  </div>
+                  <span>2026</span>
+                </div>
+                <button class="lightbox-trigger" data-title="Inner Conflict" data-year="2026" data-medium="Acrylic on Canvas" data-description="A vivid expression of emotional turbulence, layered color, and tension between chaos and clarity." data-image="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=1200&q=80">
+                  View Artwork
+                </button>
+              </article>
+
+              <article class="art-card" data-category="portraits">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="After the Storm portrait" />
+                <div class="art-overlay">
+                  <div>
+                    <p class="art-tag">Portraits</p>
+                    <h4>After the Storm</h4>
+                  </div>
+                  <span>2025</span>
+                </div>
+                <button class="lightbox-trigger" data-title="After the Storm" data-year="2025" data-medium="Oil on Linen" data-description="A portrait shaped by resilience, emotional weather, and the quiet strength that follows pain." data-image="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80">
+                  View Artwork
+                </button>
+              </article>
+
+              <article class="art-card" data-category="street">
+                <img src="https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&w=900&q=80" alt="Street Signal painting" />
+                <div class="art-overlay">
+                  <div>
+                    <p class="art-tag">Street Art</p>
+                    <h4>Street Signal</h4>
+                  </div>
+                  <span>2024</span>
+                </div>
+                <button class="lightbox-trigger" data-title="Street Signal" data-year="2024" data-medium="Aerosol & Mixed Media" data-description="A bold city-inspired composition rooted in movement, signal, and the language of the streets." data-image="https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&w=1200&q=80">
+                  View Artwork
+                </button>
+              </article>
+
+              <article class="art-card" data-category="contemporary">
+                <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=900&q=80" alt="Shadows In Motion painting" />
+                <div class="art-overlay">
+                  <div>
+                    <p class="art-tag">Contemporary</p>
+                    <h4>Shadows in Motion</h4>
+                  </div>
+                  <span>2026</span>
+                </div>
+                <button class="lightbox-trigger" data-title="Shadows in Motion" data-year="2026" data-medium="Mixed Media on Panel" data-description="A layered study of motion, memory, and the blurred edges between identity and transition." data-image="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1200&q=80">
+                  View Artwork
+                </button>
+              </article>
+
+              <article class="art-card" data-category="abstract">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Chromatic Frequency painting" />
+                <div class="art-overlay">
+                  <div>
+                    <p class="art-tag">Abstract</p>
+                    <h4>Chromatic Frequency</h4>
+                  </div>
+                  <span>2025</span>
+                </div>
+                <button class="lightbox-trigger" data-title="Chromatic Frequency" data-year="2025" data-medium="Acrylic & Ink" data-description="An exploration of sound, vibration, and energy translated into layered pigments and motion." data-image="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80">
+                  View Artwork
+                </button>
+              </article>
+
+              <article class="art-card" data-category="portraits">
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=80" alt="Nocturne portrait" />
+                <div class="art-overlay">
+                  <div>
+                    <p class="art-tag">Portraits</p>
+                    <h4>Nocturne</h4>
+                  </div>
+                  <span>2024</span>
+                </div>
+                <button class="lightbox-trigger" data-title="Nocturne" data-year="2024" data-medium="Charcoal on Cotton" data-description="A moody portrait capturing silence, introspection, and the stillness between thoughts." data-image="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1200&q=80">
+                  View Artwork
+                </button>
+              </article>
+            </div>
+
+            <div class="section-cta reveal">
+              <a href="#contact" class="btn btn-primary">View Full Art Collection</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="featured-art section accent-block">
+          <div class="container feature-layout">
+            <div class="feature-visual reveal">
+              <img
+                src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1400&q=80"
+                alt="Featured painting by Kairo Voss"
+              />
+            </div>
+
+            <div class="feature-copy reveal">
+              <p class="eyebrow">Featured artwork</p>
+              <h3>Art That Speaks Without Words</h3>
+              <p>
+                “Unwritten Letters” is a painting born from the tension between memory and ambition. It reflects the moments when words fall short, and the soul turns to color to explain what it cannot say aloud. The layered textures, warm tones, and fractured forms mirror the emotional instability of growth, storytelling, and reinvention.
+              </p>
+              <a href="#paintings" class="btn btn-primary">View Artwork</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="music" class="music section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">The other side of the artist</p>
+              <h3>When the canvas isn’t enough, the microphone takes over.</h3>
+            </div>
+
+            <div class="music-grid reveal">
+              <article class="track-card">
+                <div class="track-art">
+                  <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80" alt="Song cover art" />
+                  <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="track-meta">
+                  <h4>Street Prayer</h4>
+                  <p>March 2026</p>
+                  <span>Hip-Hop / Conscious</span>
+                </div>
+              </article>
+
+              <article class="track-card">
+                <div class="track-art">
+                  <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80" alt="Song cover art" />
+                  <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="track-meta">
+                  <h4>Blackout Mode</h4>
+                  <p>January 2026</p>
+                  <span>Trap / Alternative</span>
+                </div>
+              </article>
+
+              <article class="track-card">
+                <div class="track-art">
+                  <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80" alt="Song cover art" />
+                  <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="track-meta">
+                  <h4>Color in the Noise</h4>
+                  <p>October 2025</p>
+                  <span>Rap / Experimental</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="music-player reveal">
+              <div class="player-art">
+                <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80" alt="Featured album cover" />
+              </div>
+              <div class="player-info">
+                <p class="eyebrow small">Featured release</p>
+                <h4>THE HUNGER IN COLORS</h4>
+                <p>EP • 2026</p>
+                <div class="player-controls">
+                  <button class="control play"><i class="fa-solid fa-play"></i></button>
+                  <div class="progress">
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="music-cta reveal">
+              <a href="#contact" class="btn btn-primary">Listen Now</a>
+              <a href="#videos" class="btn btn-secondary">Watch on YouTube</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="album-feature section">
+          <div class="container album-layout">
+            <div class="album-copy reveal">
+              <p class="eyebrow">Latest release</p>
+              <h3>THE HUNGER IN COLORS</h3>
+              <p>
+                A cinematic, emotionally charged body of work blending raw storytelling, hard-hitting bars, and a visual palette shaped by urban resilience and artistic rebellion. This project is the soundtrack to the artist’s most vulnerable chapter yet.
+              </p>
+              <div class="album-actions">
+                <a href="#contact" class="btn btn-primary">Listen Now</a>
+                <a href="#videos" class="btn btn-secondary">Watch Video</a>
+              </div>
+            </div>
+
+            <div class="album-art reveal">
+              <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1200&q=80" alt="Latest album art" />
+              <span class="album-badge">New single</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="videos" class="videos section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Music videos</p>
+              <h3>Visual stories & direct creations</h3>
+            </div>
+
+            <div class="video-grid reveal">
+              <article class="video-card">
+                <div class="video-thumb" style="background-image: url('https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1000&q=80');">
+                  <button class="video-play"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="video-copy">
+                  <p class="video-label">Official Music Video</p>
+                  <h4>Street Prayer</h4>
+                  <span>May 2026</span>
+                  <p>A visual poem about survival, ambition, and the sound of the city speaking back.</p>
+                </div>
+              </article>
+
+              <article class="video-card">
+                <div class="video-thumb" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80');">
+                  <button class="video-play"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="video-copy">
+                  <p class="video-label">Behind the Art</p>
+                  <h4>Studio Session</h4>
+                  <span>April 2026</span>
+                  <p>A raw look inside the process of building a track from blank page to final release.</p>
+                </div>
+              </article>
+
+              <article class="video-card">
+                <div class="video-thumb" style="background-image: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80');">
+                  <button class="video-play"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="video-copy">
+                  <p class="video-label">Studio Session</p>
+                  <h4>Live Painting</h4>
+                  <span>June 2026</span>
+                  <p>An intimate look at how the artist transforms sound, movement, and emotion into visual energy.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="gallery" class="creative-gallery section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Creative gallery</p>
+              <h3>Life behind the finished work</h3>
+            </div>
+
+            <div class="gallery-mosaic reveal">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Painting process" />
+              <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Studio details" />
+              <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Live performance" />
+              <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80" alt="Recording session" />
+              <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80" alt="Event portrait" />
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80" alt="Street photography" />
+            </div>
+          </div>
+        </section>
+
+        <section id="events" class="events section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Events</p>
+              <h3>Upcoming & previous appearances</h3>
+            </div>
+
+            <div class="event-list reveal">
+              <div class="event-item">
+                <div class="event-date">12 OCT 2026</div>
+                <div class="event-details">
+                  <h4>Art Exhibition</h4>
+                  <p>Nairobi, Kenya</p>
+                </div>
+                <div class="event-type">Gallery</div>
+              </div>
+
+              <div class="event-item">
+                <div class="event-date">25 OCT 2026</div>
+                <div class="event-details">
+                  <h4>Live Performance</h4>
+                  <p>Nairobi, Kenya</p>
+                </div>
+                <div class="event-type">Music</div>
+              </div>
+
+              <div class="event-item">
+                <div class="event-date">02 NOV 2026</div>
+                <div class="event-details">
+                  <h4>Creative Residency</h4>
+                  <p>Paris, France</p>
+                </div>
+                <div class="event-type">Workshop</div>
+              </div>
+            </div>
+
+            <div class="section-cta reveal">
+              <a href="#contact" class="btn btn-primary">Book the Artist</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="services section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Commission & services</p>
+              <h3>Bring the vision to life</h3>
+            </div>
+
+            <div class="services-grid reveal">
+              <div class="service-card">
+                <i class="fa-solid fa-palette"></i>
+                <h4>Custom Paintings</h4>
+                <p>Commission a unique painting created specifically for your space, story, and vision.</p>
+              </div>
+              <div class="service-card">
+                <i class="fa-solid fa-landmark"></i>
+                <h4>Art Exhibitions</h4>
+                <p>Book the artist for exhibitions, installations, and curated creative experiences.</p>
+              </div>
+              <div class="service-card">
+                <i class="fa-solid fa-brush"></i>
+                <h4>Live Painting</h4>
+                <p>Hire the artist for live painting that turns a gathering into a memorable event.</p>
+              </div>
+              <div class="service-card">
+                <i class="fa-solid fa-microphone-lines"></i>
+                <h4>Music Performances</h4>
+                <p>Bring a live rap performance that blends energy, storytelling, and atmosphere.</p>
+              </div>
+              <div class="service-card">
+                <i class="fa-solid fa-handshake"></i>
+                <h4>Brand Collaborations</h4>
+                <p>Collaborate on campaigns, merchandise, visuals, and creative brand storytelling.</p>
+              </div>
+              <div class="service-card">
+                <i class="fa-solid fa-compact-disc"></i>
+                <h4>Creative Projects</h4>
+                <p>Work together on custom multimedia projects, concepts, and artistic collaborations.</p>
+              </div>
+            </div>
+
+            <div class="section-cta reveal">
+              <a href="#contact" class="btn btn-primary">Start a Project</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="testimonials section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Testimonials</p>
+              <h3>Clients, collaborators & collectors</h3>
+            </div>
+
+            <div class="testimonial-grid reveal">
+              <blockquote class="testimonial-card">
+                <p>“Kairo brings both soul and precision into the room. His art transforms the atmosphere and his performance commands attention without losing authenticity.”</p>
+                <footer>
+                  <strong>Amara N.</strong>
+                  <span>Art Collector</span>
+                </footer>
+              </blockquote>
+
+              <blockquote class="testimonial-card">
+                <p>“His creative process is deeply intentional. The paintings, the sound, and the energy all connect in a way that feels completely original.”</p>
+                <footer>
+                  <strong>J. Moko</strong>
+                  <span>Event Organizer</span>
+                </footer>
+              </blockquote>
+
+              <blockquote class="testimonial-card">
+                <p>“Working with Kairo was effortless — he understood the brief, elevated it, and delivered a visual and sonic experience people still talk about.”</p>
+                <footer>
+                  <strong>Nyah T.</strong>
+                  <span>Brand Partner</span>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </section>
+
+        <section class="social section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Follow the journey</p>
+              <h3>Instagram & social media</h3>
+            </div>
+
+            <div class="social-grid reveal">
+              <a href="#" class="social-card"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Artwork post" /></a>
+              <a href="#" class="social-card"><img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80" alt="Studio session" /></a>
+              <a href="#" class="social-card"><img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80" alt="Performance" /></a>
+              <a href="#" class="social-card"><img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80" alt="Music work" /></a>
+              <a href="#" class="social-card"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Behind the scenes" /></a>
+              <a href="#" class="social-card"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Paint detail" /></a>
+            </div>
+
+            <div class="social-links reveal">
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="contact section">
+          <div class="container contact-layout">
+            <div class="contact-copy reveal">
+              <p class="eyebrow">Let’s create something</p>
+              <h3>Whether it’s a painting, performance, collaboration, or creative project, let’s bring the idea to life.</h3>
+              <div class="contact-meta">
+                <div>
+                  <span>Email</span>
+                  <a href="mailto:hello@kairovoss.art">hello@kairovoss.art</a>
+                </div>
+                <div>
+                  <span>Phone</span>
+                  <a href="tel:+254700000000">+254 700 000 000</a>
+                </div>
+                <div>
+                  <span>Location</span>
+                  <p>Nairobi, Kenya</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form reveal" id="projectForm">
+              <div class="field-row">
+                <label>
+                  <span>Name</span>
+                  <input type="text" name="name" placeholder="Your name" required />
+                </label>
+                <label>
+                  <span>Email</span>
+                  <input type="email" name="email" placeholder="you@example.com" required />
+                </label>
+              </div>
+
+              <div class="field-row">
+                <label>
+                  <span>Phone</span>
+                  <input type="tel" name="phone" placeholder="+254 ..." />
+                </label>
+                <label>
+                  <span>Project Type</span>
+                  <select name="projectType" required>
+                    <option value="">Select one</option>
+                    <option>Painting Commission</option>
+                    <option>Art Exhibition</option>
+                    <option>Live Painting</option>
+                    <option>Music Performance</option>
+                    <option>Brand Collaboration</option>
+                    <option>Music Collaboration</option>
+                    <option>Other</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="field-row">
+                <label>
+                  <span>Budget</span>
+                  <input type="text" name="budget" placeholder="$1,000 - $5,000" />
+                </label>
+              </div>
+
+              <label>
+                <span>Message</span>
+                <textarea name="message" rows="6" placeholder="Tell me about your idea, timeline, and vision..." required></textarea>
+              </label>
+
+              <button type="submit" class="btn btn-primary">Send Project Inquiry</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div>
+            <a href="#home" class="brand footer-brand">
+              <span class="brand-mark">KV</span>
+              <span class="brand-text">Kairo Voss</span>
+            </a>
+            <p>Painter | Rapper | Creative Artist</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#paintings">Paintings</a>
+            <a href="#music">Music</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 Kairo Voss. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <div class="lightbox" aria-hidden="true">
+      <div class="lightbox-backdrop"></div>
+      <div class="lightbox-content">
+        <button class="lightbox-close" aria-label="Close artwork viewer">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <img src="" alt="Artwork viewer" />
+        <div class="lightbox-copy">
+          <p class="eyebrow">Featured artwork</p>
+          <h4 id="lightboxTitle">Artwork Title</h4>
+          <p id="lightboxMeta">Year — Medium</p>
+          <p id="lightboxDescription">Artwork description.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
